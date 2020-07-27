@@ -40,7 +40,7 @@ class MyFrame(wx.Frame):
         else:
             try:
                 #wolframalpha code:
-                app_id="6LH6EP-H3L33XVTLK"                #pvt app_id created in wolframalpha
+                app_id="Your App id"                #pvt app_id created in wolframalpha
                 client=wolframalpha.Client(app_id)        #creating a client to access
 
                 result=client.query(n)                    #searches the given query and stores in resul
